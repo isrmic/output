@@ -1,0 +1,16 @@
+{
+  "name": "output",
+  "version": "1.0.0",
+  "description": "a package for the output styled",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "output",
+    "log",
+    "style"
+  ],
+  "author": "isrmic",
+  "license": "MIT"
+}
