@@ -4,7 +4,8 @@
   "description": "a package for the output styled",
   "main": "index.js",
   "scripts": {
-    "test": "node ./tests/index.js"
+    "test": "node ./tests/index.js",
+    "test:jest": "jest"
   },
   "keywords": [
     "output",
@@ -12,5 +13,8 @@
     "style"
   ],
   "author": "isrmic",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.3.1"
+  }
 }
