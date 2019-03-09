@@ -12,3 +12,13 @@ output
 output
   .ln()
   .outln('Simple output', 'Cyan', 'White');
+
+//
+output
+  .ln()
+  .bgwhite(' Test Underscore with Bold '.Underline.Bold, 'green')
+  .ln();
+
+output
+  .ln()
+  .bgwhite(' Test '.Italic.Underline, 'black');

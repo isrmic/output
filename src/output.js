@@ -33,7 +33,7 @@ const output = {
   bgmagenta: (paramout, textcolor) => stdoutput(resolveOutputString(textcolor, 'magenta', paramout, false)),
   bgcyan: (paramout, textcolor) => stdoutput(resolveOutputString(textcolor, 'cyan', paramout, false)),
   bgwhite: (paramout, textcolor) => stdoutput(resolveOutputString(textcolor, 'white', paramout, false)),  
-
+    
   //output space
   spc: (spacenumbers = 1) => stdoutput(' '.repeat(spacenumbers)),
   //output tabulation
@@ -41,6 +41,5 @@ const output = {
   //output new line
   ln: (numberln = 1) => stdoutput('\r\n'.repeat(numberln)),
 };
-
 
 module.exports = output;
