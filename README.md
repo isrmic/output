@@ -8,7 +8,7 @@ $ npm install --save output-jsc
 To use Output first we must import it
 ```javascript
 //use es6 syntax
-const { output } = require('output-jsc');
+const { output } = require('outputjsc');
 ```
 o objeto output contém uma serie de métodos que serão utilizados para estilizar a saída de informações pelo console, todos estes métodos trabalham como chain methods, veja os exemplos abaixos de como utilizar:
 ```
@@ -89,7 +89,7 @@ o objeto output contém uma serie de métodos que serão utilizados para estiliz
       .ln();
 ```
 
-# String propertys
+# String properties
 At the time the Output package is imported, new properties are generated as prototypes in the String object and can be used to give a small stylized output methods can not provide.
 
 Example:
@@ -108,7 +108,3 @@ other available properties
 ```
 # License
 MIT
-
-
-
-

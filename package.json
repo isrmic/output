@@ -1,6 +1,6 @@
 {
   "name": "output-jsc",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "a package for the output styled",
   "main": "index.js",
   "scripts": {
