@@ -2,7 +2,7 @@
 Output Javascript Console is a simple package for styling the data outputs in order to give a better visualization of the information through the console.
 # Installation
 ```
-$ npm install --save output-jsc
+$ npm install --save outputjsc
 ```
 # Usage
 To use Output first we must import it

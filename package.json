@@ -1,5 +1,5 @@
 {
-  "name": "output-jsc",
+  "name": "outputjsc",
   "version": "0.0.1",
   "description": "a package for the output styled",
   "main": "index.js",
