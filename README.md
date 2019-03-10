@@ -9,9 +9,7 @@ To use Output first we must import it
 ```javascript
 //use es6 syntax
 const { output } = require('outputjsc');
-```
-o objeto output contém uma serie de métodos que serão utilizados para estilizar a saída de informações pelo console, todos estes métodos trabalham como chain methods, veja os exemplos abaixos de como utilizar:
-```
+
     //output Object
     output
         
@@ -55,9 +53,21 @@ o objeto output contém uma serie de métodos que serão utilizados para estiliz
         //to add a new line: '\r\n'
         .ln (n <number of spaces>?) //default new lines is 1
 ```
+
+As the methods of the output object are chain methods, so each call of these methods is returned the output object again and can re-use the output methods without needing to call the output methods separately.
+```javascript
+//without chain method resource
+output.red('red color ');
+output.green('green color ');
+output.blue('blue color');
+
+//with chain method resource
+output.red('red color ').green('green color ').blue('blue color');
+```
+
 ##### Examples:
 ```javascript
-    const { output } = require('output-jsc');
+    const { output } = require('outputjsc');
     
     output.green('Hello World'); //print 'Hello World' with green text color
     
@@ -85,7 +95,7 @@ o objeto output contém uma serie de métodos que serão utilizados para estiliz
       .spc()
       .white('created a lockfile as package-lock.json. You should commit this file')
       .ln()
-      .white('npm').spc().bgyellow('WARN','Black').spc().white('output-jsc@1.0.0 No repository field.')
+      .white('npm').spc().bgyellow('WARN','Black').spc().white('outputjsc@1.0.0 No repository field.')
       .ln();
 ```
 
@@ -94,7 +104,7 @@ At the time the Output package is imported, new properties are generated as prot
 
 Example:
 ```javascript
-    const { output } = require('output-jsc');
+    const { output } = require('outputjsc');
     
     output.green('Hello World'.Bold); //apply a bold style on text content
     output.yellow('1 + 1 = ').red('3'.Underline); //apply a Underline style on text content (on '3' string)
