@@ -1,6 +1,6 @@
 {
   "name": "outputjsc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a package for the output styled",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "jest": "^24.3.1"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/isrmic/output"
+    "type": "git",
+    "url": "https://github.com/isrmic/output"
   }
 }
