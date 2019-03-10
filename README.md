@@ -48,10 +48,10 @@ const { output } = require('outputjsc');
         .spc (n <number of spaces>?) //default space number is 1
         
         //to add tabulation: "\t"
-        .tab (n <number of spaces>?) //default tab number is 1
+        .tab (n <number of tabs>?) //default tab number is 1
         
         //to add a new line: '\r\n'
-        .ln (n <number of spaces>?) //default new lines is 1
+        .ln (n <number of new lines>?) //default new lines is 1
 ```
 
 As the methods of the output object are chain methods, so each call of these methods is returned the output object again and can re-use the output methods without needing to call the output methods separately.
